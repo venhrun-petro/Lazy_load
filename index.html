@@ -175,7 +175,7 @@
 <body>
 <header>
     <nav class="top-menu">
-        <div class="general-container"><a href="#first-section"> <img src="img/logo.png" class="top-logo"
+        <div class="general-container"><a href="#first-section"> <img data-src="img/logo.png" class="top-logo"
                                                                       alt="logo"></a>
             <ul class="non">
                 <li><a href="#about">About US</a></li>
@@ -301,7 +301,7 @@
         <div class="general-container"><h2 class="general-second-txt">TESTIMONIALS</h2>
             <div class="main">
                 <div class="sl">
-                    <div class="sl-slide"><img src="img/sl1.jpg" class="sl-img" alt="">
+                    <div class="sl-slide"><img data-src="img/sl1.jpg" class="sl-img" alt="">
                         <p class="testimonial-title general-min-txt">Sed ut perspiciatis unde omnis iste natus error sit
                             voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
                             inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
@@ -310,7 +310,7 @@
                         <div class="testimonial-author"><span class="autor"> John Doe</span> <br>
                             <p class="color-gray"> Programmer</p></div>
                     </div>
-                    <div class="sl-slide"><img src="img/man.png" class="sl-img" alt="">
+                    <div class="sl-slide"><img data-src="img/man.png" class="sl-img" alt="">
                         <p class="testimonial-title general-min-txt">Sed ut perspiciatis unde omnis iste natus error sit
                             voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
                             inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
@@ -319,7 +319,7 @@
                         <div class="testimonial-author"><span class="autor"> John Doe</span> <br>
                             <p class="color-gray"> Programmer</p></div>
                     </div>
-                    <div class="sl-slide"><img src="img/sl3.jpg" class="sl-img" alt="">
+                    <div class="sl-slide"><img data-src="img/sl3.jpg" class="sl-img" alt="">
                         <p class="testimonial-title general-min-txt">Sed ut perspiciatis unde omnis iste natus error sit
                             voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
                             inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
@@ -328,7 +328,7 @@
                         <div class="testimonial-author"><span class="autor"> John Doe</span> <br>
                             <p class="color-gray"> Programmer</p></div>
                     </div>
-                    <div class="sl-slide"><img src="img/sl4.jpg" class="sl-img" alt="">
+                    <div class="sl-slide"><img data-src="img/sl4.jpg" class="sl-img" alt="">
                         <p class="testimonial-title general-min-txt">Sed ut perspiciatis unde omnis iste natus error sit
                             voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
                             inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
@@ -337,7 +337,7 @@
                         <div class="testimonial-author"><span class="autor"> John Doe</span> <br>
                             <p class="color-gray"> Programmer</p></div>
                     </div>
-                    <div class="sl-slide"><img src="img/sl5.jpg" class="sl-img" alt="">
+                    <div class="sl-slide"><img data-src="img/sl5.jpg" class="sl-img" alt="">
                         <p class="testimonial-title general-min-txt">Sed ut perspiciatis unde omnis iste natus error sit
                             voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
                             inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
@@ -363,9 +363,9 @@
                     <button class="general-btn" formmethod="post" id="submit">Send</button>
                 </form>
                 <div class="our-info">
-                    <div class="icon-info"><p class="paddin-icon-info"><img src="img/location.svg" alt="location"></p>
-                        <p class="paddin-icon-info"><img src="img/mail.svg" alt="mail"></p>
-                        <p class="paddin-icon-info"><img src="img/phone.svg" alt="phone"></p></div>
+                    <div class="icon-info"><p class="paddin-icon-info"><img data-src="img/location.svg" alt="location"></p>
+                        <p class="paddin-icon-info"><img data-src="img/mail.svg" alt="mail"></p>
+                        <p class="paddin-icon-info"><img data-src="img/phone.svg" alt="phone"></p></div>
                     <div class="txt-info"><p class="contackt-list">Kyiv, 2/1A, Sobornosti Ave.</p>
                         <p class="contackt-list">support@athlete.com</p>
                         <p class="contackt-list">044 526 89 43</p></div>
@@ -376,7 +376,7 @@
     <section></section>
 </div>
 <footer class="footer">
-    <div class="general-container"><a href="#first-section"> <img src="img/logo.png" class="foot-log"
+    <div class="general-container"><a href="#first-section"> <img data-src="img/logo.png" class="foot-log"
                                                                   alt="fot-logo"></a>
         <div class="icon-right">
             <div class="min-icon-foot"></div>
@@ -433,6 +433,7 @@ document.getElementsByTagName("head")[0].appendChild(ms);
         {"src": "libs/jquery/jquery-3.3.1.min.js", "async": false},
         {"src": "libs/plugins-scroll/plugins-scroll.js", "async": false},
         {"src": "slick/slick.min.js", "async": false},
+        {"src": "jquery/jquery.lazy.min.js", "async": false},
         {"src": "js/common.js", "async": false}
     ]
 };
