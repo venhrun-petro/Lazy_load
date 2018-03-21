@@ -1,6 +1,4 @@
-$(function() {
-    $('.lazy').lazy();
-});
+
 
 
 $('.sl').slick({
